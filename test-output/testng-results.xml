@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85517" started-at="2021-06-29T20:05:40Z" finished-at="2021-06-29T20:07:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85517" started-at="2021-06-29T20:05:40Z" finished-at="2021-06-29T20:07:05Z">
+      <class name="com.AmazonAutomation.test.BuyNowPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@704a52ec]" name="setUp" is-config="true" duration-ms="64045" started-at="2021-06-29T20:05:40Z" finished-at="2021-06-29T20:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="buyNowPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.BuyNowPageTest@704a52ec]" name="buyNowPageTitleTest" duration-ms="17066" started-at="2021-06-29T20:06:44Z" finished-at="2021-06-29T20:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@704a52ec]" name="teardown" is-config="true" duration-ms="4347" started-at="2021-06-29T20:07:01Z" finished-at="2021-06-29T20:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.BuyNowPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
