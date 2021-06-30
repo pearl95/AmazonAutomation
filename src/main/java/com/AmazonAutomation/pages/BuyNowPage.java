@@ -19,8 +19,8 @@ public class BuyNowPage extends TestBaseAmazon{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public String validateBuyNowPageTitle() {
-		return driver.getTitle();
+	public boolean validateBuyNowPagePriceTest(String price) {
+		return driver.getPageSource().contains(price);
 	}
 	
 	

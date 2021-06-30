@@ -29,6 +29,7 @@ public class HomePage extends TestBaseAmazon {
 		
 		Actions act=new Actions(driver);
 		act.moveToElement(hoverSignIn).build().perform();
+		Thread.sleep(1000);
 	
 		signInButton.click();
 		return new LoginPage();

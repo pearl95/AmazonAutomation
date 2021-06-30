@@ -34,6 +34,7 @@ public class PaymentPageTest extends TestBaseAmazon{
 		
 		initialization();
 		homePage= new HomePage(); 
+		Thread.sleep(1000);
 		loginPage =homePage.homeSignInClick();
 		Thread.sleep(1000);
 		Map<String,String>exceldata=TestExcelUtil.getData();
@@ -46,7 +47,7 @@ public class PaymentPageTest extends TestBaseAmazon{
 	}
 	
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void paymentPageTitleTest() throws InterruptedException
 	{
 		log.info("****************** starting test case 1 ***********************");
@@ -70,16 +71,8 @@ public class PaymentPageTest extends TestBaseAmazon{
 		
 		paymentPage.addCard(prop.getProperty("cardNumber"), prop.getProperty("monthValue"), prop.getProperty("yearValue"),prop.getProperty("cvv"));
 		
-		boolean cardverify=paymentPage.verifyCard();
-	if (cardverify) {
-		log.error("Wrong credit card number");
-			
-		}
-		else {
-			
-			log.info("credit cardnumber successful");
-		}
-		
+		String text =paymentPage.verifyCard();
+		Assert.assertEquals(text, "Card number is not correct.","card number is valid");
 		
 		log.info("******** ending test case ******************");
 	}

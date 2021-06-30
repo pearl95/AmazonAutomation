@@ -1,7 +1,6 @@
 package com.AmazonAutomation.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -32,7 +31,7 @@ public class PaymentPage extends TestBaseAmazon{
 	@FindBy(xpath="//input[@name='ppw-widgetEvent:AddCreditCardEvent']")
 	WebElement addCardButton;
 	
-	@FindBy(xpath="//span[text()='Card number is not correct.']")
+	@FindBy(xpath="(//span[@class='a-list-item'])[1]")
 	WebElement verificationError;
 	
 	
@@ -88,21 +87,19 @@ public class PaymentPage extends TestBaseAmazon{
 			//cvvfield.sendKeys(cvv);
 		//}////
 	
-	public boolean verifyCard() {
+	public String verifyCard() {
 		
-		try {
-			
-		
-		if(verificationError.isDisplayed()) {
-			return false;
-		}
+		String invalidMessage="";
+		if(driver.findElements(By.xpath("(//span[@class='a-list-item'])[1]")).size()>0) {
+		System.out.println("error message found");
+		invalidMessage=verificationError.getText();
+	      
+	}
 		else {
-			return true;
+			System.out.println("error message not displayed");
 		}
-			
-		}catch(NoSuchElementException e) {
-		return false;
-		}
+		return invalidMessage;
+		
 		
 		
 	}

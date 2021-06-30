@@ -1,4 +1,93 @@
-2021-06-30 01:35:40,244  INFO [main] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
-2021-06-30 01:36:44,472  INFO [main] TestBaseAmazon:49 - ****************** starting test case 1 ***********************
-2021-06-30 01:37:01,340  INFO [main] TestBaseAmazon:59 - ******** ending test case ******************
-2021-06-30 01:37:05,697  INFO [main] TestBaseAmazon:87 - ************* Browser is closed *************************
+2021-06-30 14:42:51,578  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:43:28,141  INFO [TestNG-tests-1] TestBaseAmazon:42 - ****************** starting test case 1 ***********************
+2021-06-30 14:43:34,491  INFO [TestNG-tests-1] TestBaseAmazon:51 - ******** ending test case ******************
+2021-06-30 14:43:38,377  INFO [TestNG-tests-1] TestBaseAmazon:78 - ************* Browser is closed *************************
+2021-06-30 14:43:38,379  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:44:53,576  INFO [TestNG-tests-1] TestBaseAmazon:53 - ****************** starting test case 1 ***********************
+2021-06-30 14:44:53,644  INFO [TestNG-tests-1] TestBaseAmazon:63 - ******** ending test case ******************
+2021-06-30 14:44:56,186  INFO [TestNG-tests-1] TestBaseAmazon:86 - ************* Browser is closed *************************
+2021-06-30 14:44:56,187  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:45:38,601  INFO [TestNG-tests-1] TestBaseAmazon:52 - ****************** starting test case 1 ***********************
+2021-06-30 14:45:56,554  INFO [TestNG-tests-1] TestBaseAmazon:64 - ******** ending test case ******************
+2021-06-30 14:46:00,716  INFO [TestNG-tests-1] TestBaseAmazon:92 - ************* Browser is closed *************************
+2021-06-30 14:46:00,717  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:46:25,672  INFO [TestNG-tests-1] TestBaseAmazon:34 - ****************** starting test case 1 ***********************
+2021-06-30 14:46:25,752  INFO [TestNG-tests-1] TestBaseAmazon:43 - ******** ending test case ******************
+2021-06-30 14:46:28,627  INFO [TestNG-tests-1] TestBaseAmazon:67 - ************* Browser is closed *************************
+2021-06-30 14:46:28,629  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:46:45,951  INFO [TestNG-tests-1] TestBaseAmazon:39 - ****************** starting test case 1 ***********************
+2021-06-30 14:46:45,962  INFO [TestNG-tests-1] TestBaseAmazon:48 - ******** ending test case ******************
+2021-06-30 14:46:48,035  INFO [TestNG-tests-1] TestBaseAmazon:71 - ************* Browser is closed *************************
+2021-06-30 14:46:48,043  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:47:12,431  INFO [TestNG-tests-1] TestBaseAmazon:60 - ****************** starting test case 3 ***********************
+2021-06-30 14:47:36,329  INFO [TestNG-tests-1] TestBaseAmazon:69 - ******** ending test case ******************
+2021-06-30 14:47:39,534  INFO [TestNG-tests-1] TestBaseAmazon:78 - ************* Browser is closed *************************
+2021-06-30 14:47:39,536  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:48:42,977  INFO [TestNG-tests-1] TestBaseAmazon:70 - ****************** starting test case 2 ***********************
+2021-06-30 14:48:53,324  INFO [TestNG-tests-1] TestBaseAmazon:77 - ******** ending test case ******************
+2021-06-30 14:48:55,888  INFO [TestNG-tests-1] TestBaseAmazon:86 - ************* Browser is closed *************************
+2021-06-30 14:48:55,891  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:49:35,916  INFO [TestNG-tests-1] TestBaseAmazon:70 - ****************** starting test case 2 ***********************
+2021-06-30 14:50:01,943  INFO [TestNG-tests-1] TestBaseAmazon:79 - ******** ending test case ******************
+2021-06-30 14:50:04,695  INFO [TestNG-tests-1] TestBaseAmazon:92 - ************* Browser is closed *************************
+2021-06-30 14:50:04,697  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:50:20,372  INFO [TestNG-tests-1] TestBaseAmazon:50 - ****************** starting test case 2 ***********************
+2021-06-30 14:50:24,535  INFO [TestNG-tests-1] TestBaseAmazon:57 - ******** ending test case ******************
+2021-06-30 14:50:26,779  INFO [TestNG-tests-1] TestBaseAmazon:67 - ************* Browser is closed *************************
+2021-06-30 14:50:26,780  INFO [TestNG-tests-1] TestBaseAmazon:47 - **************** Starting test cases execution  ******************
+2021-06-30 14:50:45,111  INFO [TestNG-tests-1] TestBaseAmazon:55 - ****************** starting test case 2 ***********************
+2021-06-30 14:50:48,018  INFO [TestNG-tests-1] TestBaseAmazon:62 - ******** ending test case ******************
+2021-06-30 14:50:56,003  INFO [TestNG-tests-1] TestBaseAmazon:71 - ************* Browser is closed *************************
+2021-06-30 14:50:56,384 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:56,386 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2021-06-30 14:50:56,392 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2021-06-30 14:50:56,393 DEBUG [TestNG-tests-1] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2021-06-30 14:50:56,905 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:56,906 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2021-06-30 14:50:56,907 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2021-06-30 14:50:56,907 DEBUG [TestNG-tests-1] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2021-06-30 14:50:56,915 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:56,917 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2021-06-30 14:50:56,919 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2021-06-30 14:50:56,920 DEBUG [TestNG-tests-1] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2021-06-30 14:50:56,943 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:56,944 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2021-06-30 14:50:56,945 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2021-06-30 14:50:56,945 DEBUG [TestNG-tests-1] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2021-06-30 14:50:56,970 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:56,971 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2021-06-30 14:50:56,972 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2021-06-30 14:50:56,972 DEBUG [TestNG-tests-1] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2021-06-30 14:50:57,005 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,008 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,009 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,012 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,014 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,017 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,019 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,023 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,024 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-30 14:50:57,026 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:57,027 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2021-06-30 14:50:57,028 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2021-06-30 14:50:57,028 DEBUG [TestNG-tests-1] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2021-06-30 14:50:57,035 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:57,036 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2021-06-30 14:50:57,037 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2021-06-30 14:50:57,037 DEBUG [TestNG-tests-1] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2021-06-30 14:50:57,045 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:57,046 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2021-06-30 14:50:57,047 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2021-06-30 14:50:57,047 DEBUG [TestNG-tests-1] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2021-06-30 14:50:57,071 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:57,072 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2021-06-30 14:50:57,074 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2021-06-30 14:50:57,074 DEBUG [TestNG-tests-1] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2021-06-30 14:50:57,082 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:57,085 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2021-06-30 14:50:57,086 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2021-06-30 14:50:57,087 DEBUG [TestNG-tests-1] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2021-06-30 14:50:57,115 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-30 14:50:57,116 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2021-06-30 14:50:57,118 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2021-06-30 14:50:57,123 DEBUG [TestNG-tests-1] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/PEARL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

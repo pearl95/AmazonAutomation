@@ -1,244 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="46322" started-at="2021-06-25T09:47:50Z" finished-at="2021-06-25T09:48:36Z">
+  <suite name="Command line suite" duration-ms="342008" started-at="2021-06-30T05:12:25Z" finished-at="2021-06-30T05:18:07Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="46322" started-at="2021-06-25T09:47:50Z" finished-at="2021-06-25T09:48:36Z">
-      <class name="com.AmazonAutomation.test.HomePageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@25bbe1b6]" name="setUp" is-config="true" duration-ms="46121" started-at="2021-06-25T09:47:50Z" finished-at="2021-06-25T09:48:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 3.978
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8849d9f6a7fb64c094665098419c7c4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.978
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8849d9f6a7fb64c094665098419c7c4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.AmazonAutomation.base.TestBaseAmazon.initialization(TestBaseAmazon.java:56)
-at com.AmazonAutomation.test.HomePageTest.setUp(HomePageTest.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+    <test name="Command line test" duration-ms="342008" started-at="2021-06-30T05:12:25Z" finished-at="2021-06-30T05:18:07Z">
+      <class name="com.AmazonAutomation.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@4bec1f0c]" name="setUp" is-config="true" duration-ms="18740" started-at="2021-06-30T05:14:16Z" finished-at="2021-06-30T05:14:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="homePageTitleTest()[pri:1, instance:com.AmazonAutomation.test.HomePageTest@25bbe1b6]" name="homePageTitleTest" duration-ms="0" started-at="2021-06-25T09:48:36Z" finished-at="2021-06-25T09:48:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 3.978
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8849d9f6a7fb64c094665098419c7c4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.978
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8849d9f6a7fb64c094665098419c7c4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.AmazonAutomation.base.TestBaseAmazon.initialization(TestBaseAmazon.java:56)
-at com.AmazonAutomation.test.HomePageTest.setUp(HomePageTest.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.LoginPageTest@4bec1f0c]" name="loginPageTitleTest" duration-ms="8" started-at="2021-06-30T05:14:35Z" finished-at="2021-06-30T05:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@4bec1f0c]" name="teardown" is-config="true" duration-ms="1664" started-at="2021-06-30T05:14:35Z" finished-at="2021-06-30T05:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@4bec1f0c]" name="setUp" is-config="true" duration-ms="20157" started-at="2021-06-30T05:16:57Z" finished-at="2021-06-30T05:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageSignIn()[pri:2, instance:com.AmazonAutomation.test.LoginPageTest@4bec1f0c]" name="loginPageSignIn" duration-ms="7899" started-at="2021-06-30T05:17:17Z" finished-at="2021-06-30T05:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSignIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@4bec1f0c]" name="teardown" is-config="true" duration-ms="1676" started-at="2021-06-30T05:17:25Z" finished-at="2021-06-30T05:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.LoginPageTest -->
+      <class name="com.AmazonAutomation.test.ProductSearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@5649fd9b]" name="setUp" is-config="true" duration-ms="32061" started-at="2021-06-30T05:13:28Z" finished-at="2021-06-30T05:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productSearchPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.ProductSearchPageTest@5649fd9b]" name="productSearchPageTitleTest" duration-ms="8" started-at="2021-06-30T05:14:00Z" finished-at="2021-06-30T05:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@5649fd9b]" name="teardown" is-config="true" duration-ms="2004" started-at="2021-06-30T05:14:00Z" finished-at="2021-06-30T05:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@5649fd9b]" name="setUp" is-config="true" duration-ms="29142" started-at="2021-06-30T05:17:26Z" finished-at="2021-06-30T05:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ProductSearchAndClick()[pri:2, instance:com.AmazonAutomation.test.ProductSearchPageTest@5649fd9b]" name="ProductSearchAndClick" duration-ms="9992" started-at="2021-06-30T05:17:55Z" finished-at="2021-06-30T05:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSearchAndClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@5649fd9b]" name="teardown" is-config="true" duration-ms="1831" started-at="2021-06-30T05:18:05Z" finished-at="2021-06-30T05:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.ProductSearchPageTest -->
+      <class name="com.AmazonAutomation.test.PaymentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.PaymentPageTest@29ca901e]" name="setUp" is-config="true" duration-ms="53892" started-at="2021-06-30T05:14:36Z" finished-at="2021-06-30T05:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paymentActivity()[pri:2, instance:com.AmazonAutomation.test.PaymentPageTest@29ca901e]" name="paymentActivity" duration-ms="9324" started-at="2021-06-30T05:15:30Z" finished-at="2021-06-30T05:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentActivity -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.PaymentPageTest@29ca901e]" name="teardown" is-config="true" duration-ms="2181" started-at="2021-06-30T05:15:39Z" finished-at="2021-06-30T05:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.PaymentPageTest -->
+      <class name="com.AmazonAutomation.test.BuyNowPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@3159c4b8]" name="setUp" is-config="true" duration-ms="48184" started-at="2021-06-30T05:12:25Z" finished-at="2021-06-30T05:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="buyNowPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.BuyNowPageTest@3159c4b8]" name="buyNowPageTitleTest" duration-ms="12198" started-at="2021-06-30T05:13:13Z" finished-at="2021-06-30T05:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@3159c4b8]" name="teardown" is-config="true" duration-ms="2698" started-at="2021-06-30T05:13:26Z" finished-at="2021-06-30T05:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@3159c4b8]" name="setUp" is-config="true" duration-ms="33708" started-at="2021-06-30T05:15:42Z" finished-at="2021-06-30T05:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="buyNowClick()[pri:2, instance:com.AmazonAutomation.test.BuyNowPageTest@3159c4b8]" name="buyNowClick" duration-ms="17380" started-at="2021-06-30T05:16:15Z" finished-at="2021-06-30T05:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@3159c4b8]" name="teardown" is-config="true" duration-ms="1819" started-at="2021-06-30T05:16:33Z" finished-at="2021-06-30T05:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.BuyNowPageTest -->
+      <class name="com.AmazonAutomation.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@73846619]" name="setUp" is-config="true" duration-ms="11566" started-at="2021-06-30T05:14:02Z" finished-at="2021-06-30T05:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.AmazonAutomation.test.HomePageTest@73846619]" name="homePageTitleTest" duration-ms="8" started-at="2021-06-30T05:14:14Z" finished-at="2021-06-30T05:14:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@25bbe1b6]" name="setUp" is-config="true" duration-ms="0" started-at="2021-06-25T09:48:36Z" finished-at="2021-06-25T09:48:36Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@73846619]" name="teardown" is-config="true" duration-ms="1797" started-at="2021-06-30T05:14:14Z" finished-at="2021-06-30T05:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@73846619]" name="setUp" is-config="true" duration-ms="12850" started-at="2021-06-30T05:16:35Z" finished-at="2021-06-30T05:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="homePageSignIn()[pri:2, instance:com.AmazonAutomation.test.HomePageTest@25bbe1b6]" name="homePageSignIn" duration-ms="0" started-at="2021-06-25T09:48:36Z" finished-at="2021-06-25T09:48:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 3.978
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8849d9f6a7fb64c094665098419c7c4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.978
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\PEARL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8849d9f6a7fb64c094665098419c7c4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.AmazonAutomation.base.TestBaseAmazon.initialization(TestBaseAmazon.java:56)
-at com.AmazonAutomation.test.HomePageTest.setUp(HomePageTest.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="homePageSignIn()[pri:2, instance:com.AmazonAutomation.test.HomePageTest@73846619]" name="homePageSignIn" duration-ms="7495" started-at="2021-06-30T05:16:47Z" finished-at="2021-06-30T05:16:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageSignIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@73846619]" name="teardown" is-config="true" duration-ms="1675" started-at="2021-06-30T05:16:55Z" finished-at="2021-06-30T05:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.AmazonAutomation.test.HomePageTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

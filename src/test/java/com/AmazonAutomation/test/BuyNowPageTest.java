@@ -3,7 +3,7 @@ package com.AmazonAutomation.test;
 import java.io.IOException;
 import java.util.Map;
 
-import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,6 +15,8 @@ import com.AmazonAutomation.pages.LoginPage;
 import com.AmazonAutomation.pages.PaymentPage;
 import com.AmazonAutomation.pages.ProductSearchPage;
 import com.AmazonAutomation.util.TestExcelUtil;
+
+import junit.framework.Assert;
 
 public class BuyNowPageTest extends TestBaseAmazon{
 	
@@ -33,6 +35,7 @@ public class BuyNowPageTest extends TestBaseAmazon{
 		
 		initialization();
 		homePage= new HomePage(); 
+		Thread.sleep(1000);
 		loginPage =homePage.homeSignInClick();
 		Thread.sleep(1000);
 		Map<String,String>exceldata=TestExcelUtil.getData();
@@ -44,15 +47,17 @@ public class BuyNowPageTest extends TestBaseAmazon{
 	
 	
 	@Test(priority=1)
-	public void buyNowPageTitleTest() throws InterruptedException
+	public void buyNowPagePriceTest() throws InterruptedException
 	{
 		log.info("****************** starting test case 1 ***********************");
 		
 		
 		
 		buyNowPage.childWindowChange();
-		String title = buyNowPage.validateBuyNowPageTitle();
-		Assert.assertEquals(title, prop.getProperty("buyNowPageTitle"),"Buy Now Page Title is not matched");
+		Thread.sleep(1000);
+		boolean price = buyNowPage.validateBuyNowPagePriceTest(prop.getProperty("price"));
+		Thread.sleep(1000);
+		Assert.assertTrue(price);
 		
 		
 		

@@ -1,25 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85517" started-at="2021-06-29T20:05:40Z" finished-at="2021-06-29T20:07:05Z">
+  <suite name="Suite" duration-ms="484473" started-at="2021-06-30T09:12:51Z" finished-at="2021-06-30T09:20:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85517" started-at="2021-06-29T20:05:40Z" finished-at="2021-06-29T20:07:05Z">
-      <class name="com.AmazonAutomation.test.BuyNowPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@704a52ec]" name="setUp" is-config="true" duration-ms="64045" started-at="2021-06-29T20:05:40Z" finished-at="2021-06-29T20:06:44Z">
+    <test name="Test" duration-ms="484473" started-at="2021-06-30T09:12:51Z" finished-at="2021-06-30T09:20:56Z">
+      <class name="com.AmazonAutomation.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@3d36e4cd]" name="setUp" is-config="true" duration-ms="17319" started-at="2021-06-30T09:16:28Z" finished-at="2021-06-30T09:16:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="buyNowPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.BuyNowPageTest@704a52ec]" name="buyNowPageTitleTest" duration-ms="17066" started-at="2021-06-29T20:06:44Z" finished-at="2021-06-29T20:07:01Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.LoginPageTest@3d36e4cd]" name="loginPageTitleTest" duration-ms="13" started-at="2021-06-30T09:16:45Z" finished-at="2021-06-30T09:16:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyNowPageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@704a52ec]" name="teardown" is-config="true" duration-ms="4347" started-at="2021-06-29T20:07:01Z" finished-at="2021-06-29T20:07:05Z">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@3d36e4cd]" name="teardown" is-config="true" duration-ms="1873" started-at="2021-06-30T09:16:46Z" finished-at="2021-06-30T09:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@3d36e4cd]" name="setUp" is-config="true" duration-ms="18329" started-at="2021-06-30T09:20:26Z" finished-at="2021-06-30T09:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageSignIn()[pri:2, instance:com.AmazonAutomation.test.LoginPageTest@3d36e4cd]" name="loginPageSignIn" duration-ms="2910" started-at="2021-06-30T09:20:45Z" finished-at="2021-06-30T09:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSignIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.LoginPageTest@3d36e4cd]" name="teardown" is-config="true" duration-ms="2427" started-at="2021-06-30T09:20:53Z" finished-at="2021-06-30T09:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.LoginPageTest -->
+      <class name="com.AmazonAutomation.test.ProductSearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@ba8d91c]" name="setUp" is-config="true" duration-ms="36456" started-at="2021-06-30T09:12:51Z" finished-at="2021-06-30T09:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productSearchPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.ProductSearchPageTest@ba8d91c]" name="productSearchPageTitleTest" duration-ms="6474" started-at="2021-06-30T09:13:28Z" finished-at="2021-06-30T09:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@ba8d91c]" name="teardown" is-config="true" duration-ms="2293" started-at="2021-06-30T09:13:36Z" finished-at="2021-06-30T09:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@ba8d91c]" name="setUp" is-config="true" duration-ms="24386" started-at="2021-06-30T09:16:48Z" finished-at="2021-06-30T09:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ProductSearchAndClick()[pri:2, instance:com.AmazonAutomation.test.ProductSearchPageTest@ba8d91c]" name="ProductSearchAndClick" duration-ms="23900" started-at="2021-06-30T09:17:12Z" finished-at="2021-06-30T09:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSearchAndClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.ProductSearchPageTest@ba8d91c]" name="teardown" is-config="true" duration-ms="2629" started-at="2021-06-30T09:17:36Z" finished-at="2021-06-30T09:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.ProductSearchPageTest -->
+      <class name="com.AmazonAutomation.test.PaymentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.PaymentPageTest@7364985f]" name="setUp" is-config="true" duration-ms="75192" started-at="2021-06-30T09:13:38Z" finished-at="2021-06-30T09:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paymentPageTitleTest()[pri:1, instance:com.AmazonAutomation.test.PaymentPageTest@7364985f]" name="paymentPageTitleTest" duration-ms="75" started-at="2021-06-30T09:14:53Z" finished-at="2021-06-30T09:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.PaymentPageTest@7364985f]" name="teardown" is-config="true" duration-ms="2320" started-at="2021-06-30T09:14:53Z" finished-at="2021-06-30T09:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.PaymentPageTest@7364985f]" name="setUp" is-config="true" duration-ms="63437" started-at="2021-06-30T09:17:39Z" finished-at="2021-06-30T09:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paymentActivity()[pri:2, instance:com.AmazonAutomation.test.PaymentPageTest@7364985f]" name="paymentActivity" duration-ms="10351" started-at="2021-06-30T09:18:42Z" finished-at="2021-06-30T09:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentActivity -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.PaymentPageTest@7364985f]" name="teardown" is-config="true" duration-ms="2277" started-at="2021-06-30T09:18:53Z" finished-at="2021-06-30T09:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.PaymentPageTest -->
+      <class name="com.AmazonAutomation.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@709ba3fb]" name="setUp" is-config="true" duration-ms="24953" started-at="2021-06-30T09:16:00Z" finished-at="2021-06-30T09:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.AmazonAutomation.test.HomePageTest@709ba3fb]" name="homePageTitleTest" duration-ms="82" started-at="2021-06-30T09:16:25Z" finished-at="2021-06-30T09:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@709ba3fb]" name="teardown" is-config="true" duration-ms="2284" started-at="2021-06-30T09:16:26Z" finished-at="2021-06-30T09:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@709ba3fb]" name="setUp" is-config="true" duration-ms="15674" started-at="2021-06-30T09:20:04Z" finished-at="2021-06-30T09:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageSignIn()[pri:2, instance:com.AmazonAutomation.test.HomePageTest@709ba3fb]" name="homePageSignIn" duration-ms="4165" started-at="2021-06-30T09:20:20Z" finished-at="2021-06-30T09:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSignIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.HomePageTest@709ba3fb]" name="teardown" is-config="true" duration-ms="1934" started-at="2021-06-30T09:20:24Z" finished-at="2021-06-30T09:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AmazonAutomation.test.HomePageTest -->
+      <class name="com.AmazonAutomation.test.BuyNowPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@5d20e46]" name="setUp" is-config="true" duration-ms="42411" started-at="2021-06-30T09:14:56Z" finished-at="2021-06-30T09:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="buyNowPagePriceTest()[pri:1, instance:com.AmazonAutomation.test.BuyNowPageTest@5d20e46]" name="buyNowPagePriceTest" duration-ms="17957" started-at="2021-06-30T09:15:38Z" finished-at="2021-06-30T09:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowPagePriceTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@5d20e46]" name="teardown" is-config="true" duration-ms="2854" started-at="2021-06-30T09:15:57Z" finished-at="2021-06-30T09:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@5d20e46]" name="setUp" is-config="true" duration-ms="40025" started-at="2021-06-30T09:18:55Z" finished-at="2021-06-30T09:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="buyNowClick()[pri:2, instance:com.AmazonAutomation.test.BuyNowPageTest@5d20e46]" name="buyNowClick" duration-ms="26028" started-at="2021-06-30T09:19:35Z" finished-at="2021-06-30T09:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNowClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AmazonAutomation.test.BuyNowPageTest@5d20e46]" name="teardown" is-config="true" duration-ms="2522" started-at="2021-06-30T09:20:02Z" finished-at="2021-06-30T09:20:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.AmazonAutomation.test.BuyNowPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

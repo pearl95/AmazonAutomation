@@ -6,10 +6,42 @@
       <class name="com.AmazonAutomation.test.HomePageTest">
         <methods>
           <include name="homePageSignIn"/>
+          <include name="teardown"/>
           <include name="setUp"/>
           <include name="homePageTitleTest"/>
         </methods>
       </class> <!-- com.AmazonAutomation.test.HomePageTest -->
+      <class name="com.AmazonAutomation.test.LoginPageTest">
+        <methods>
+          <include name="loginPageTitleTest"/>
+          <include name="loginPageSignIn"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.AmazonAutomation.test.LoginPageTest -->
+      <class name="com.AmazonAutomation.test.PaymentPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="paymentActivity"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.AmazonAutomation.test.PaymentPageTest -->
+      <class name="com.AmazonAutomation.test.ProductSearchPageTest">
+        <methods>
+          <include name="ProductSearchAndClick"/>
+          <include name="productSearchPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.AmazonAutomation.test.ProductSearchPageTest -->
+      <class name="com.AmazonAutomation.test.BuyNowPageTest">
+        <methods>
+          <include name="buyNowClick"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="buyNowPageTitleTest"/>
+        </methods>
+      </class> <!-- com.AmazonAutomation.test.BuyNowPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
